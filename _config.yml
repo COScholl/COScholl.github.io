@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-exclude: ['README.md']
-=======
 name: Chris Scholl
 markdown: kramdown
->>>>>>> 963e83012b3628d45eb7a80fbec7dc20b9e1165e
+exclude: ['README.md']
