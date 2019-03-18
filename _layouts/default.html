@@ -1,28 +1,21 @@
+
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="https://github.com/COScholl">github.com/COScholl</a></li>
-				</ul>
-			</footer>
-		</body>
+	<html lang="en-us">
+
+ 	 	{% include head.html %}
+
+ 	 	<body>
+
+   			 {% include sidebar.html %}
+
+    			<div class="content container">
+      				{{ content }}
+    			</div>
+
+  		</body>
+		<footer>
+		<ul>
+	        	<li><a href="https://github.com/COScholl">github.com/COScholl</a></li>
+			</ul>
+		</footer>
 	</html>
