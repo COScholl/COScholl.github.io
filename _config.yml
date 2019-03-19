@@ -1,3 +1,10 @@
 name: Chris Scholl
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
+# Setup
+title:            'Title of Page'
+tagline:          'Tagline to the Page'
+description:      'A description of the page, maybe with some cool styled elements'
+url:              http://COScholl.github.io
+baseurl:          /
