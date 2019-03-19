@@ -117,7 +117,7 @@
     font-style:normal
 }
 html {
- font-family: BookSanity, serif;
+ font-family: BookSanity;
  background-color:#EEE5CE;
 }
 @media (min-width: 48em) {
@@ -165,7 +165,7 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: ScalySans, sans-serif;
+  font-family: ScalySans;
   font-size: 3.25rem;
 }
 
