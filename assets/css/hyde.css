@@ -30,6 +30,7 @@
  *
  * Update the foundational and global aspects of the page.
  */
+/* Main Font Family*/
  @font-face{
     font-family:BookSanity;
     src:url(data:font/opentype;
@@ -62,6 +63,7 @@
     font-weight:bold;
     font-style:italic
 }
+/* Notes and Tables Font Family */
 @font-face{
     font-family:ScalySans;
     src:url(data:application/font-woff2;
@@ -86,6 +88,7 @@
     font-weight:normal;
     font-style:normal
 }
+/* DropCaps */
 @font-face{
     font-family:Solberry;
     src:url(data:application/font-woff2;
@@ -99,6 +102,7 @@
     font-weight:normal;
     font-style:normal
 }
+/* Headers */
 @font-face{
     font-family:MrJeeves;
     src:url(data:application/font-woff2;
@@ -113,7 +117,7 @@
     font-style:normal
 }
 html {
- font-family: ScalySans, Helvetica, Arial, sans-serif;
+ font-family: BookSanity, Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48em) {
   html {
