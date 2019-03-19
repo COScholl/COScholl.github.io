@@ -141,6 +141,7 @@ html {
  */
 
 .sidebar {
+ /* shared text between footer and main text */
   text-align: center;
   padding: 2rem 1rem;
   color:#c9ad6a
