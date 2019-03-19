@@ -117,7 +117,8 @@
     font-style:normal
 }
 html {
- font-family: BookSanity, Helvetica, Arial, sans-serif;
+ font-family: BookSanity, serif;
+ background-color:#EEE5CE;
 }
 @media (min-width: 48em) {
   html {
@@ -142,7 +143,7 @@ html {
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
-  background-color: #202020;
+  background-color: #EEE5CE;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -164,7 +165,7 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
+  font-family: ScalySans, sans-serif;
   font-size: 3.25rem;
 }
 
