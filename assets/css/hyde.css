@@ -162,8 +162,8 @@ html {
 
 /* About section */
 .sidebar-about h1 {
-  text-decoration: none;
   color:#ED1C24;
+  text-decoration: none;
   margin-top: 0;
   font-family: Nodesto;
   font-size: 3.25rem;
@@ -179,7 +179,7 @@ html {
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .sidebar-nav-item.active {
   font-weight: bold;
