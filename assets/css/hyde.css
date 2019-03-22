@@ -21,8 +21,8 @@
  */
 /* Page Titles */
 @font-face {
-	font-family:Nodesto;
-	src:url(../fonts/NodestoCapsCondensedFontFamily/NodestoCapsCondensed.otf);
+	font-family:'Nodesto';
+	src:url('../fonts/NodestoCapsCondensedFontFamily/NodestoCapsCondensed.otf')format('opentype');
 	font-weight:normal;
 	font-style:normal;
 }
