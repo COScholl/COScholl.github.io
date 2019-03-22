@@ -107,8 +107,8 @@
 }
 html {
  font-family: BookSanity;
- color:#58180D;
- background-color:#EEE5CE;
+ color:#000000;
+ background-color:#000000;
 }
 @media (min-width: 48em) {
   html {
@@ -133,7 +133,7 @@ html {
  /* shared text between footer and main text */
   text-align: center;
   padding: 2rem 1rem;
-  color:#FFFFFF
+  color:#FFFFFF;
   background-color: #000000;
 }
 @media (min-width: 48em) {
