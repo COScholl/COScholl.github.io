@@ -161,7 +161,8 @@ html {
 
 /* About section */
 .sidebar-about h1 {
-  color:#58180D
+  text-decoration: none;
+  color:#58180D;
   margin-top: 0;
   font-family: Nodesto;
   font-size: 3.25rem;
