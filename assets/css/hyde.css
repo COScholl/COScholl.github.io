@@ -115,7 +115,9 @@
 html {
  font-family: BookSanity;
  color:#000000;
- background-color:#000000;
+ background-image: url('../images/PHB-style-tiling-background.jpg');
+ background-repeat: repeat;
+ /*background-color:#000000;*/
 }
 @media (min-width: 48em) {
   html {
