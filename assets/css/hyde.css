@@ -144,8 +144,8 @@ html {
  /* shared text between footer and main text */
   text-align: center;
   padding: 2rem 1rem;
-  color:#c9ad6a
-  background-color: #ED1C24;
+  color:#FFFFFF
+  background-color: #000000;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -160,7 +160,7 @@ html {
 
 /* Sidebar links */
 .sidebar a {
-  color: black;
+  color: #ED1C24;
 }
 
 /* About section */
