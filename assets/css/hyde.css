@@ -19,6 +19,13 @@
  *
  * Update the foundational and global aspects of the page.
  */
+/* Page Titles */
+@font-face {
+	font-family:Nodesto;
+	src:url(../fonts/NodestoCapsCondensedFontFamily/NodestoCapsCondensed.otf);
+	font-weight:normal;
+	font-style:normal;
+}
 /* Main Font Family*/
  @font-face{
     font-family:BookSanity;
@@ -156,7 +163,7 @@ html {
 .sidebar-about h1 {
   color:#58180D
   margin-top: 0;
-  font-family: ScalySans;
+  font-family: Nodesto;
   font-size: 3.25rem;
 }
 
