@@ -156,6 +156,7 @@ html {
 
 /* Sidebar links */
 .sidebar a {
+  text-decoration: none;
   color: #ED1C24;
 }
 
