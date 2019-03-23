@@ -142,7 +142,7 @@ html {
  /* shared text between footer and main text */
   text-align: center;
   padding: 2rem 1rem;
-  color:#FFFFFF;
+  /*color:#FFFFFF;*/
   background-color: #000000;
 }
 @media (min-width: 48em) {
