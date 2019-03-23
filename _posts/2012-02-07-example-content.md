@@ -33,6 +33,8 @@ Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est 
 
 ### Code
 
+<h3>Code</h3>
+
 Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
 
 {% highlight js %}

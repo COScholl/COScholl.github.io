@@ -28,6 +28,150 @@
  * Themes
  */
 
+/*Main Title Font: Front Page and Sidebar Only;*/
+@font-face {
+  font-family:'Nodesto';
+  src:url('../fonts/NodestoCapsCondensed/NodestoCapsCondensed.otf')format('opentype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face {
+  font-family:'Nodesto';
+  src:url('../fonts/NodestoCapsCondensed/NodestoCapsCondensedBold.otf')format('opentype');
+  font-weight:bold;
+  font-style:normal;
+}
+@font-face {
+  font-family:'Nodesto';
+  src:url('../fonts/NodestoCapsCondensed/NodestoCapsCondensedBoldItalic.otf')format('opentype');
+  font-weight:bold;
+  font-style:italic;
+}
+@font-face {
+  font-family:'Nodesto';
+  src:url('../fonts/NodestoCapsCondensed/NNodestoCapsCondensedItalic.otf')format('opentype');
+  font-weight:normal;
+  font-style:italic;
+}
+/* Headers */
+@font-face{
+  font-family:'MrEaves';
+  src:url('../fonts/MrEaves/MrEavesSmallCaps.otf')format('opentype');
+  font-weight:normal;
+  font-style:normal;
+}
+
+/* DropCaps */
+@font-face{
+  font-family:'SolberaImitation';
+  src:url('../fonts/SolberaImitation/SolberaImitation.otf')format('opentype');
+  font-weight:normal;
+  font-style:normal;
+}
+
+/*Main Text for Pages- Tables*/
+@font-face {
+  font-family:'Bookinsanity';
+  src:url('../fonts/Bookinsanity/Bookinsanity.otf')format('opentype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face {
+  font-family:'Bookinsanity';
+  src:url('../fonts/Bookinsanity/BookinsanityBold.otf')format('opentype');
+  font-weight:bold;
+  font-style:normal;
+}
+@font-face {
+  font-family:'BookinsanityBoldItalic';
+  src:url('../fonts/Bookinsanity/BookinsanityBoldItalic.otf')format('opentype');
+  font-weight:bold;
+  font-style:italic;
+}
+@font-face {
+  font-family:'BookinsanityItalic';
+  src:url('../fonts/Bookinsanity/BookinsanityItalic.otf')format('opentype');
+  font-weight:normal;
+  font-style:italic;
+}
+
+/* Notes and Tables Font Family */
+@font-face{
+  font-family:'ScalySans';
+  src:url('../fonts/ScalySans/ScalySans.otf')format('opentype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face {
+  font-family:'ScalySans';
+  src:url('../fonts/ScalySans/ScalySansBold.otf')format('opentype');
+  font-weight:bold;
+  font-style:normal;
+}
+@font-face {
+  font-family:'ScalySans';
+  src:url('../fonts/ScalySans/ScalySansBoldItalic.otf')format('opentype');
+  font-weight:bold;
+  font-style:italic;
+}
+@font-face {
+  font-family:'ScalySans';
+  src:url('../fonts/ScalySans/ScalySansCapsItalic.otf')format('opentype');
+  font-weight:normal;
+  font-style:italic;
+}
+
+/* Notes and tables headers */
+@font-face{
+  font-family:'ScalySansCaps';
+  src:url('../fonts/ScalySansCaps/ScalySansCapsSans.otf')format('opentype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face {
+  font-family:'ScalySansCaps';
+  src:url('../fonts/ScalySansCaps/ScalySansCapsBold.otf')format('opentype');
+  font-weight:bold;
+  font-style:normal;
+}
+@font-face {
+  font-family:'ScalySansCaps';
+  src:url('../fonts/ScalySansCaps/ScalySansCapsBoldItalic.otf')format('opentype');
+  font-weight:bold;
+  font-style:italic;
+}
+@font-face {
+  font-family:'ScalySansCaps';
+  src:url('../fonts/ScalySansCaps/ScalySansCapsItalic.otf')format('opentype');
+  font-weight:normal;
+  font-style:italic;
+}
+
+  /*MM quote blocks */
+@font-face{
+  font-family:'ZatannaMisdirection';
+  src:url('../fonts/ZatannaMisdirection/ZatannaMisdirection.otf')format('opentype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face {
+  font-family:'ZatannaMisdirection';
+  src:url('../fonts/ZatannaMisdirection/ZatannaMisdirectionBold.otf')format('opentype');
+  font-weight:bold;
+  font-style:normal;
+}
+@font-face {
+  font-family:'ZatannaMisdirection';
+  src:url('../fonts/ZatannaMisdirection/ZatannaMisdirectionBoldItalic.otf')format('opentype');
+  font-weight:bold;
+  font-style:italic;
+}
+@font-face {
+  font-family:'ZatannaMisdirection';
+  src:url('../fonts/ZatannaMisdirection/ZatannaMisdirectionItalic.otf')format('opentype');
+  font-weight:normal;
+  font-style:italic;
+}
 
 /*
  * Body resets
@@ -48,10 +192,12 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: BookSanity;
+  /*color:#9C2B1B;*/
   font-size: 16px;
   line-height: 1.5;
 }
+
 @media (min-width: 38em) {
   html {
     font-size: 20px;
@@ -59,15 +205,20 @@ html {
 }
 
 body {
-  color: #515151;
-  background-color: #fff;
+  color: #000000;
+  background-image: url('../images/PHB-style-tiling-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #f2ECE4;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #268bd2;
+  color: #9C2B1B;
   text-decoration: none;
 }
 a strong {
@@ -81,50 +232,130 @@ a:focus {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .5rem;
+  /*margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #313131;
+  color: #58180D;
+  text-rendering: optimizeLegibility;*/
+  margin-top: .2rem;               
+  margin-bottom: .2rem;
+  font-family: MrEaves;
+  font-weight: 800;
+  color: #58180D;
   text-rendering: optimizeLegibility;
 }
+
+}
 h1 {
+  column-span: all;                
   font-size: 2rem;
+  -webkit-column-span: all;
+  -moz-column-span:   all;
+  /*text-decoration: none;
+  font-family: Nodesto;
+  font-size: 2rem;
+  */
 }
 h2 {
-  margin-top: 1rem;
-  font-size: 1.5rem;
+  /*margin-top: 1rem;*/
+  font-size: 1.66rem;
 }
 h3 {
-  margin-top: 1.5rem;
+  border-bottom: .125rem solid #c9ad6a;
+  /*margin-top: 1.5rem;*/
   font-size: 1.25rem;
 }
-h4, h5, h6 {
-  margin-top: 1rem;
+h4 {
+  /*margin-top: 1rem;*/
+  margin-bottom: 0;
   font-size: 1rem;
 }
 
+h5 {
+  margin-bottom: .2rem;               
+  font-family: ScalySansCaps;
+  font-size: 1rem;
+  font-weight: 900
+}
+h6 {}
+
+
 /* Body text */
+p+p, ul+p, ol+p {
+  text-indent: 1rem;
+}
+h1+p:/*first-of-type*/:first-letter {
+  float:          left;
+  font-family:    SolberaImitation;
+  font-size:      10em;
+  color:          #222;
+  line-height:    .8rem;
+  /*padding-right: 0.1rem;*/
+  /*
+  margin: -0.25em 0 -0.15em -0.5em;
+  padding: 0.25em 0.35em 0.25em 0.35em;
+  */
+}
+p+p {
+  margin-top: -0.8rem;
+}
 p {
-  margin-top: 0;
-  margin-bottom: 1rem;
+  /*margin-top: 0;
+  margin-bottom: 1rem;*/
+  line-height: 1.3rem;
 }
 
 strong {
-  color: #303030;
+  color: #000000;
+  font-weight: bold;
+  letter-spacing: .03rem;
+}
+em {
+    font-style:     italic;
+}
+sup {
+    vertical-align: super;
+    font-size:      xx-small;
+    line-height:    0;
+}
+sub {
+    vertical-align: sub;
+    font-size:      smaller;
+    line-height:    0;
 }
 
 
 /* Lists */
-ul, ol, dl {
+
+/*ul, ol,*/ dl {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: .8rem;
+  padding-left: 1.4rem;
+  line-height: 1.3rem;
+  list-style-position: outside;
+}
+
+ul{
+margin-bottom: .8rem;               
+padding-left: 1.4rem;
+line-height: 1.3rem;
+list-style-position: outside;
+list-style-type: disc;
+}
+
+ol{
+  margin-bottom: .8rem;               
+  padding-left: 1.4rem;
+  line-height: 1.3rem;
+  list-style-position: outside;
+  list-style-type: decimal;
 }
 
 dt {
   font-weight: bold;
 }
 dd {
-  margin-bottom: .5rem;
+  margin-bottom: .8rem;
 }
 
 /* Misc */
@@ -150,7 +381,7 @@ abbr[title] {
 /* Code */
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: ZatannaMisdirection, monospace;
 }
 code {
   padding: .25em .5em;
@@ -190,7 +421,7 @@ pre code {
 
 /* Gist via GitHub Pages */
 .gist .gist-file {
-  font-family: Menlo, Monaco, "Courier New", monospace !important;
+  font-family: ZatannaMisdirection !important;
 }
 .gist .markdown-body {
   padding: 15px;
@@ -210,16 +441,59 @@ pre code {
   border-radius: 0;
 }
 
-/* Quotes */
+/* Block Quotes */
+/*
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
   color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
+  border-left: .25rem solid #e5e5e5;*/
+blockquote{
+    font-family:ScalySans;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    margin-top: .5625rem;
+    padding: .3125rem .625rem;
+    background-color: #e0e5c1;
+    border-style: solid;
+    border-width: .6875rem;
+    border-image:url('../images/note-wrap.png')11;
+    border-image-outset:9px 0;
+    box-shadow:.025rem .25rem .875rem #888
 }
+blockquote em {
+    font-family: ScalySans;
+    font-style: italic;
+}
+blockquote strong {
+    font-family: ScalySans;
+    font-weight: 800;
+    letter-spacing: -0.02rem
+}
+blockquote p,
+blockquote ul {
+    font-size: .8315rem;
+    line-height: 1.096rem;
+}
+h2+blockquote,
+h3+blockquote,
+h4+blockquote,
+h5+blockquote {
+    margin-top: .8125rem;
+  }
+blockquote h5 {
+    margin-top: 0
+  }
+/*
 blockquote p:last-child {
   margin-bottom: 0;
 }
+blockquote p,
+blockquote ul {
+    font-size: .8315rem;
+    line-height: 1.1em
+}
+*/
 @media (min-width: 30em) {
   blockquote {
     padding-right: 5rem;
@@ -229,11 +503,42 @@ blockquote p:last-child {
 
 img {
   display: block;
-  max-width: 100%;
-  margin: 0 0 1rem;
+  max-width: 10  margin: 0 0 1rem;
   border-radius: 5px;
 }
 
+/* Descriptive Text */
+.descriptive{
+    display:block-inline;
+    margin-bottom:1rem;
+    background-color:#faf7ea;
+    font-family:ScalySans;
+    border-style:solid;
+    border-width: .6875rem;
+    border-image:url('../images/sidebars.png') 12 round;
+    border-image-outset:4px;
+    box-shadow:0 0 .375rem #faf7ea
+}
+.descriptive p{
+    display:block;
+    padding-bottom:0;
+    line-height:1.5rem
+}
+.descriptive p+p{
+    padding-top:.8rem
+}
+.descriptive em{
+    font-family:ScalySans;
+    font-style:italic
+}
+.descriptive strong{
+    font-family:ScalySans;
+    font-weight:800;
+    letter-spacing:-0.02rem
+}
+pre+.descriptive{
+    margin-top:.5rem;
+}
 /* Tables */
 table {
   margin-bottom: 1rem;
@@ -337,8 +642,10 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: #58180D;
+  text-decoration: none;
 }
+
 .page-title,
 .post-title {
   margin-top: 0;

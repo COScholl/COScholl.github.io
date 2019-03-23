@@ -6,7 +6,7 @@ highlighter:      pygments
 # Setup
 title:            Title of Page
 tagline:          'Something Witty About Page'
-description:      'A more in depth description about the page'
+description:      'A more in depth description about the page'  
 url:              http://COScholl.github.io
 baseurl:          
 
