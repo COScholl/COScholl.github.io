@@ -2,25 +2,24 @@
 markdown:         kramdown
 highlighter:      pygments
 
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
 
 # Setup
 title:            Title of Page
 tagline:          'Something Witty About Page'
 description:      'A more in depth description about the page'
 url:              http://COScholl.github.io
-baseurl:          /
+baseurl:          
 
 author:
   name:           'Mark Otto & Chris Scholl'
   url:            http://COScholl.github.io
 
+# PermaLinks not supported anymore
+gems:             [jekyll-paginate]
 paginate:         5
+paginate_path:    "page:num"
 
 # Custom vars
 version:          "Fifth Edition"
 
-github:
-  repo:           https://github.com/poole/hyde
+github: [metadata] 
