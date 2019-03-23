@@ -1,9 +1,8 @@
 ---
-layout: page
+layout: post
 title: About
 ---
 
-Your Dungeons & Dragons placeholder text:
 Abjuration bard compulsion subschool conjuration constrict disabled elemental type fatigued fear effect good subtype guardinal subtype heat dangers hit ooze type paralysis party shaken spell slot strength summoning subschool water dangers. Ability damage chaotic subtype circumstance bonus compulsion concealment constrict critical roll darkness disease drow domain effective hit point increase fatigued gaseous form half speed lethal damage medium plant domain positive energy rake rend subschool summoning subschool suppress swift action unarmed strike. Attack of opportunity cold immunity current hit points dodge bonus flight hit die illusion insight bonus level adjustment orc domain platinum piece poison square tiny turning damage unconscious.
 
 Ability decrease angel subtype breath weapon caster level check catching on fire command word item concentrate on a spell deal damage elemental type family domain fatigued fire subtype fraction incorporeal initiative lethal damage melee weapon plane of shadow poison protection domain repose domain skill modifier slime domain speed spell completion item spell resistance standard action touch attack use-activated item. Ability score loss class cover craft domain damage reduction grapple check half speed hit points initiative modifier vermin type. Ability damaged blinded burrow character cold dangers cold subtype destruction domain fate domain fey type fly full-round action lawful melee touch attack natural reach petrified plane of shadow player character reach weapon sonic attack take damage temporary hit points trickery domain untrained.
