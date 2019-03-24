@@ -191,10 +191,10 @@ html {
 .sidebar {
   /*position:absolute;*/
   margin: 0;
-  padding: 0;
+  padding: 2rem 1rem;
   /*width:100%;*/
   height:100%;
-  overflow-x: hidden; 
+  /*overflow-x: hidden; */
   left:0;
   top:0;
   /*width:475px;*/
@@ -211,13 +211,14 @@ html {
 }*/
 .sidebar img {
   width:100%;
+  padding: 1rem, 2rem, 1rem, 2rem;
 }
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
     top: 0;
     left: 0;
-    bottom: 0;
+    bottom: 1rem;
     width: 18rem;
     text-align: left;
   }

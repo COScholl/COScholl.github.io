@@ -8,7 +8,7 @@ title:            C.O. Scholl
 tagline:          'Front end dev and games'
 description:      'Currently in development'  
 url:              http://COScholl.github.io
-baseurl:          
+baseurl:          /
 
 author:
   name:           'Mark Otto & Chris Scholl'

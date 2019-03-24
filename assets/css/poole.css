@@ -180,10 +180,10 @@
  */
 
 * {
-  -webkit-box-sizing: content-box;
-     -moz-box-sizing: content-box;
-          box-sizing: content-box;
-}
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  }
 
 html,
 body {
@@ -261,16 +261,16 @@ h1 {
   */
 }
 h2 {
-  /*margin-top: 1rem;*/
+  margin-top: 1rem;
   font-size: 1.66rem;
 }
 h3 {
   border-bottom: .125rem solid #c9ad6a;
-  /*margin-top: 1.5rem;*/
+  margin-top: 1.5rem;
   font-size: 1.25rem;
 }
 h4 {
-  /*margin-top: 1rem;*/
+  margin-top: 1rem;
   margin-bottom: 0;
   font-size: 1rem;
 }
@@ -288,7 +288,9 @@ h6 {}
 p+p, ul+p, ol+p {
   text-indent: 1rem;
 }
-h1+p:/*first-of-type*/:first-letter {
+
+/*
+h1+p::first-letter {
   float:          left;
   font-family:    SolberaImitation;
   font-size:      10em;
@@ -300,6 +302,8 @@ h1+p:/*first-of-type*/:first-letter {
   padding: 0.25em 0.35em 0.25em 0.35em;
   */
 }
+
+*/
 p+p {
   margin-top: -0.8rem;
 }
@@ -470,7 +474,7 @@ blockquote em {
     font-style: italic;
 }
 blockquote strong {
-    font-family: ScalySans;
+    font-family: ScalySansCaps;
     font-weight: 800;
     letter-spacing: -0.02rem
 }
