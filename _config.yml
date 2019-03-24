@@ -4,9 +4,9 @@ highlighter:      pygments
 
 
 # Setup
-title:            Title of Page
-tagline:          'Something Witty About Page'
-description:      'A more in depth description about the page'  
+title:            C.O. Scholl
+tagline:          'Front end dev and games'
+description:      'Currently in development'  
 url:              http://COScholl.github.io
 baseurl:          
 

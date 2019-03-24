@@ -168,9 +168,6 @@
 
 html {
   font-family: BookSanity;
-  color:#9C2B1B;
-  background-image: url('../images/PHB-style-tiling-background.jpg');
-  background-repeat: repeat;
 }
 @media (min-width: 48em) {
   html {
@@ -192,10 +189,28 @@ html {
  */
 
 .sidebar {
+  /*position:absolute;*/
+  margin: 0;
+  padding: 0;
+  /*width:100%;*/
+  height:100%;
+  overflow-x: hidden; 
+  left:0;
+  top:0;
+  /*width:475px;*/
+  /*background-image:url('.../images/backcover-bg.png');*/
+  /*background-size:475px 1066px;*/
+  /*z-index:20;*/
   text-align: center;
+  color: rgba(255,255,255,.5);
+  background-color: #202020;
+}/*
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
+}*/
+.sidebar img {
+  width:100%;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -209,6 +224,10 @@ html {
 }
 
 /* Sidebar links */
+.sidebar h1+p:/*first-of-type*/:first-letter {
+  all: unset;
+}
+
 .sidebar h1 a {
   color: #ED1C24;
   text-decoration: none;

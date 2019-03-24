@@ -180,22 +180,26 @@
  */
 
 * {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
+  width:100%;
+  height:100%;
+  overflow-x: hidden; 
 }
 
 html {
   font-family: BookSanity;
   /*color:#9C2B1B;*/
   font-size: 16px;
-  line-height: 1.5;
+  /*line-height: 1.5;*/
+  width: 100%;
 }
 
 @media (min-width: 38em) {
@@ -517,43 +521,67 @@ img {
     border-width: .6875rem;
     border-image:url('../images/sidebars.png') 12 round;
     border-image-outset:4px;
-    box-shadow:0 0 .375rem #faf7ea
+    box-shadow:0 0 .375rem #faf7ea;
 }
 .descriptive p{
     display:block;
     padding-bottom:0;
-    line-height:1.5rem
+    line-height:1.5rem;
 }
 .descriptive p+p{
-    padding-top:.8rem
+    padding-top:.8rem;
 }
 .descriptive em{
     font-family:ScalySans;
-    font-style:italic
+    font-style: italic;
 }
 .descriptive strong{
     font-family:ScalySans;
     font-weight:800;
-    letter-spacing:-0.02rem
+    letter-spacing: -0.02rem;
 }
 pre+.descriptive{
     margin-top:.5rem;
 }
 /* Tables */
-table {
+table {                           
+  font-family: ScalySans;
+  width: 100%;
+  margin-bottom: .996rem;
+  font-size: .833rem;
+  line-height: 1.095rem;
+    /*
   margin-bottom: 1rem;
   width: 100%;
   border: 1px solid #e5e5e5;
   border-collapse: collapse;
+  */
+}
+thead {
+    font-weight: 800;
+}
+thead th {
+    vertical-align: bottom;
+    padding-bottom: .3rem;
+    padding-right: .1rem;
+    padding-left: .1rem;
 }
 td,
 th {
-  padding: .25rem .5rem;
-  border: 1px solid #e5e5e5;
+  padding: .3rem .1rem;
 }
-tbody tr:nth-child(odd) td,
-tbody tr:nth-child(odd) th {
-  background-color: #f9f9f9;
+/*tbody tr:nth-child(odd) td,*/
+tbody tr:nth-child(odd) {
+  background-color: #e0e5c1;
+}
+table em {
+    font-family: ScalySans;
+    font-style: italic;
+}
+table strong {
+    font-family: ScalySans;
+    font-weight: 800;
+    letter-spacing: -0.02em;
 }
 
 
