@@ -76,7 +76,7 @@ title: Home
 </section>
 <h3>About Me</h3>
 <p>
-  I am currently a Junior Data Analyst for Groundspeed Analytics, Inc. I am currently working on multi-classing as Junior Developer with
+  I am currently a Junior Data Analyst for Groundspeed Analytics, Inc. I am working on multi-classing as Junior Developer with
   a focus on front-end development.
 </p>
   </div>
