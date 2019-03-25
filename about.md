@@ -41,8 +41,8 @@ It also comes from wanting to seem intelligent, too. I am learning to downplay t
 Trivia is a bit frivalous. It seems like knowledge, but it doesn't help us excel in the day to day tasks we have
 to perform.
 
-However, sharing trivia is not the same as sharing skills, tricks, or techniques learned through practice. These
-can have real impact on the lives of one another. They also must be accessible. Communicating 
+Sharing trivia is not the same as sharing skills, tricks, or techniques learned through practice. These
+things can have a real impact on someone's life. They also must be accessible. Communicating 
 information in such a way that another person can understand and apply that information is a skill.
 So, let's make the information that we share count. Let it be useful.
 
