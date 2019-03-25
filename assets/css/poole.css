@@ -308,8 +308,8 @@ p+p {
   margin-top: -0.8rem;
 }
 p {
-  /*margin-top: 0;
-  margin-bottom: 1rem;*/
+  margin-top: 0;
+  /*margin-bottom: 1rem;*/
   line-height: 1.3rem;
 }
 
@@ -766,4 +766,99 @@ a.pagination-item:hover {
     border-top-right-radius:    4px;
     border-bottom-right-radius: 4px;
   }
+}
+
+/*Monster Stat Block*/
+.stats hr+section blockquote {
+    position: relative;
+    padding-top: .9375rem;
+    background-color: #FDF1DC;
+    border-style: solid;
+    background-image: url('/assets/images/blockquote-bg.png');
+    border-image: url('/assets/images/blockquote-wrap.png');
+    background-position: center;
+    border-width: .5rem;
+    border-image-slice: 20
+}
+.stats hr+section blockquote h2 {
+    margin-top: -.5rem;
+    margin-bottom: 0
+}
+.stats hr+section blockquote h2+p {
+    padding-bottom: 0
+}
+.stats hr+section blockquote h3 {
+    font-family: ScalySans;
+    color: #58180D
+    font-weight: 400;
+    border-bottom: 1px solid #58180D
+}
+.stats hr+section blockquote hr+ul {
+    color: #58180D;
+    font-size: .8315rem;
+    list-style: none;
+    padding-left: 0;
+  }
+
+.stats hr+section blockquote ul{
+    font-family: ScalySans;
+    color: #58180D;
+    list-style: none;
+    padding-left: 0;
+    font-size: .8315rem;
+}
+.stats hr+section blockquote ul dl{
+    list-style: none;
+    padding-left: 0;
+    font-family: ScalySans;
+    color: #58180D;
+    font-size: .8315rem;
+}
+.stats hr+section blockquote ul  em {
+    font-family: ScalySans;
+    color: #58180D
+    font-style: italic
+}
+.stats hr+section blockquote ul strong {
+    font-family: ScalySans;
+    color: #58180D
+    font-weight: 800;
+    letter-spacing: -0.02em
+}
+.stats hr+section blockquote hr+table {
+    margin: 0;
+    column-span: 1;
+    background-color: transparent;
+    border-style: none;
+    border-image: none;
+    -webkit-column-span: 1
+}
+.stats hr+section blockquote hr+table tbody tr:nth-child(odd),
+.stats hr+section blockquote hr+table tbody tr:nth-child(even) {
+    background-color: transparent
+}
+.stats hr+section blockquote table {
+    color: #58180D
+}
+.stats hr+section blockquote p+p {
+    margin-top: 0;
+    text-indent: 0;
+    margin-bottom: 7px
+}
+.stats hr+section blockquote hr {
+    visibility: visible;
+    height: 6px;
+    margin: 4px 0;
+    background-image: url('/assets/images/arrow-right.png');
+    /*background-size: 100% 100%;*/
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none
+}
+.MainTitle {
+  font-family: Nodesto;
+  text-align: center;
+  color: #000000;
+  font-size:6rem;
+  /*-webkit-text-stroke: .1rem #000000;*/
 }

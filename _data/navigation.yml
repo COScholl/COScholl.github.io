@@ -2,5 +2,9 @@
   link: /
 - name: About
   link: /about.html
+- name: Grimoire
+  link: grimoire.html
+- name: Role-Playing Games
+  link: /rpgs.html
 - name: Blog
   link: /blog.html
