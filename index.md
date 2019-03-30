@@ -5,7 +5,7 @@ title: Home
 <div>
   <div>
     <h1 class="MainTitle">The Adventure Starts Here</h1>
-    <img src="assets/images/DiamondDD.png" width="100%"/>
+    <img src="assets/images/DiamondOrange.png" width="100%"/>
   </div>
   <hr/>
   <p>

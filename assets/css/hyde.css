@@ -1,5 +1,5 @@
 /*
- * Designed, built, and released under MIT license by @mdo. Learn more at
+ * Designed, built, and released under MIT license by mdo. Learn more at
  * Based on https://github.com/poole/hyde.
  */
 
@@ -167,7 +167,7 @@
  */
 
 html {
-  font-family: BookSanity;
+  font-family: 'IM Fell DW Pica';
 }
 @media (min-width: 48em) {
   html {
@@ -203,7 +203,8 @@ html {
   /*z-index:20;*/
   text-align: center;
   color: rgba(255,255,255,.5);
-  background-color: #202020;
+  background-color: #58180d;
+  /*background-color: #001e33;*/
 }/*
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
@@ -230,7 +231,7 @@ html {
 }
 
 .sidebar h1 a {
-  color: #ED1C24;
+  color: #ff9800;
   text-decoration: none;
 }
 .sidebar a {
@@ -239,7 +240,7 @@ html {
 
 /* About section */
 .sidebar-about h1 {
-  color:#ED1C24;
+  color:#ff9800;
   text-decoration: none;
   margin-top: 0;
   font-family: Nodesto;

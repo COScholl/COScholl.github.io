@@ -116,7 +116,7 @@
 }
 @font-face {
   font-family:'ScalySans';
-  src:url('../fonts/ScalySans/ScalySansCapsItalic.otf')format('opentype');
+  src:url('../fonts/ScalySans/ScalyItalic.otf')format('opentype');
   font-weight:normal;
   font-style:italic;
 }
@@ -195,34 +195,44 @@ body {
 }
 
 html {
-  font-family: BookSanity;
-  /*color:#9C2B1B;*/
-  font-size: 16px;
+  font-family: 'Balthazar', serif;
+  /*color:#695a2f;*/
+  font-size: 24px;
   /*line-height: 1.5;*/
   width: 100%;
 }
 
 @media (min-width: 38em) {
   html {
-    font-size: 20px;
+    font-size: 24px;
   }
 }
 
 body {
-  color: #000000;
-  background-image: url('../images/PHB-style-tiling-background.jpg');
+  color: #  ;
+  background-image: url('../images/gridBackground.svg');
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
   background-color: #f2ECE4;
+  /* background-color:#FFFFFF;
+  background-attachment: inherit;
+  background-image: 
+    linear-gradient(#c0ddf2 1px, transparent 1px),
+    linear-gradient(90deg, #c0ddf2 1px, transparent 1px),
+    linear-gradient(#c0ddf2 1px, transparent 1px),
+    linear-gradient(90deg, #c0ddf2 1px, transparent 1px);
+  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  background-position:-1px -1px, -1px -1px, -1px -1px, -1px -1px;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+*/
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #9C2B1B;
+  color: #695a2f;
   text-decoration: none;
 }
 a strong {
@@ -239,13 +249,13 @@ h1, h2, h3, h4, h5, h6 {
   /*margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #58180D;
+  color: #352d18;
   text-rendering: optimizeLegibility;*/
   margin-top: .2rem;               
   margin-bottom: .2rem;
   font-family: MrEaves;
   font-weight: 800;
-  color: #58180D;
+  color: #352d18;
   text-rendering: optimizeLegibility;
 }
 
@@ -265,7 +275,7 @@ h2 {
   font-size: 1.66rem;
 }
 h3 {
-  border-bottom: .125rem solid #c9ad6a;
+  border-bottom: .125rem solid #ffb499;
   margin-top: 1.5rem;
   font-size: 1.25rem;
 }
@@ -314,7 +324,7 @@ p {
 }
 
 strong {
-  color: #000000;
+  color: #001e33;
   font-weight: bold;
   letter-spacing: .03rem;
 }
@@ -462,7 +472,7 @@ blockquote{
     margin-bottom: 1rem;
     margin-top: .5625rem;
     padding: .3125rem .625rem;
-    background-color: #e0e5c1;
+    background-color: #dfd5b9;
     border-style: solid;
     border-width: .6875rem;
     border-image:url('../images/note-wrap.png')11;
@@ -576,7 +586,7 @@ th {
 }
 /*tbody tr:nth-child(odd) td,*/
 tbody tr:nth-child(odd) {
-  background-color: #e0e5c1;
+  background-color: #dfd5b9;
 }
 table em {
     font-family: ScalySans;
@@ -674,7 +684,7 @@ table strong {
 .page-title,
 .post-title,
 .post-title a {
-  color: #58180D;
+  color: #352d18;
   text-decoration: none;
 }
 
@@ -774,7 +784,7 @@ a.pagination-item:hover {
     padding-top: .9375rem;
     background-color: #FDF1DC;
     border-style: solid;
-    background-image: url('/assets/images/blockquote-bg.png');
+    background-image: url('/assets/images/gray-blockquote.svg');
     border-image: url('/assets/images/blockquote-wrap.png');
     background-position: center;
     border-width: .5rem;
@@ -789,12 +799,12 @@ a.pagination-item:hover {
 }
 .stats hr+section blockquote h3 {
     font-family: ScalySans;
-    color: #58180D
+    color: #352d18
     font-weight: 400;
-    border-bottom: 1px solid #58180D
+    border-bottom: 1px solid #352d18
 }
 .stats hr+section blockquote hr+ul {
-    color: #58180D;
+    color: #352d18;
     font-size: .8315rem;
     list-style: none;
     padding-left: 0;
@@ -802,7 +812,7 @@ a.pagination-item:hover {
 
 .stats hr+section blockquote ul{
     font-family: ScalySans;
-    color: #58180D;
+    color: #352d18;
     list-style: none;
     padding-left: 0;
     font-size: .8315rem;
@@ -811,17 +821,17 @@ a.pagination-item:hover {
     list-style: none;
     padding-left: 0;
     font-family: ScalySans;
-    color: #58180D;
+    color: #352d18;
     font-size: .8315rem;
 }
 .stats hr+section blockquote ul  em {
     font-family: ScalySans;
-    color: #58180D
+    color: #352d18
     font-style: italic
 }
 .stats hr+section blockquote ul strong {
     font-family: ScalySans;
-    color: #58180D
+    color: #352d18
     font-weight: 800;
     letter-spacing: -0.02em
 }
@@ -838,7 +848,7 @@ a.pagination-item:hover {
     background-color: transparent
 }
 .stats hr+section blockquote table {
-    color: #58180D
+    color: #352d18
 }
 .stats hr+section blockquote p+p {
     margin-top: 0;
@@ -858,7 +868,7 @@ a.pagination-item:hover {
 .MainTitle {
   font-family: Nodesto;
   text-align: center;
-  color: #000000;
+  color: #001e33;
   font-size:6rem;
-  /*-webkit-text-stroke: .1rem #000000;*/
+  /*-webkit-text-stroke: .1rem #001e33;*/
 }
