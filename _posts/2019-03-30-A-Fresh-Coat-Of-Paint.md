@@ -8,7 +8,7 @@ the other graphic design folks at Wizards of the Coast put into
 the fifth edition Dungeons & Dragons books.
 
 I made the graph paper background with Inkscape, building up several 
-layers of tranlucent blue-white gradients on an orange background, 
+layers of translucent blue-white gradients on an orange background, 
 then adding a grid layer, and finally a filter layer to add a little 
 more texture. I created a new background for the stat-block with Inkscape 
 as well, going for a mottled gray and white texture.
