@@ -30,6 +30,42 @@
 
 /*Main Title Font: Front Page and Sidebar Only;*/
 @font-face {
+  font-family:'FrederickatheGreat';
+  src:url('../fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf')format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face {
+  font-family:'OverlockSC';
+  src:url('../fonts/Overlock_SC/OverlockSC-Regular.ttf')format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face {
+  font-family:'IMFellGreatPrimerSC';
+  src:url('../fonts/IM_Fell_Great_Primer_SC/IMFeGPsc28P.ttf')format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face {
+  font-family:'CabinSketch';
+  src:url('../fonts/Cabin_Sketch/CabinSketch-Regular.ttf')format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face {
+  font-family:'CabinSketch';
+  src:url('../fonts/Cabin_Sketch/CabinSketch-Bold.ttf')format('truetype');
+  font-weight:bold;
+  font-style:normal;
+}
+@font-face {
+  font-family:'MetalMania';
+  src:url('../fonts/Metal_Mania/MetalMania-Regular.ttf')format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face {
   font-family:'Nodesto';
   src:url('../fonts/NodestoCapsCondensed/NodestoCapsCondensed.otf')format('opentype');
   font-weight:normal;
@@ -60,6 +96,13 @@
   font-weight:normal;
   font-style:normal;
 }
+@font-face {
+  font-family:'IMFellDWPicaSC';
+  src:url('../fonts/IM_Fell_DW_Pica_SC/IMFePIsc28P.ttf')format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+
 
 /* DropCaps */
 @font-face{
@@ -94,6 +137,36 @@
   font-weight:normal;
   font-style:italic;
 }
+@font-face {
+  font-family:'IMFellDWPica';
+  src:url('../fonts/IM_Fell_DW_Pica/IMFePIrm28P.ttf')format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face {
+  font-family:'IMFellDWPica';
+  src:url('../fonts/IM_Fell_DW_Pica/IMFePIit28P.ttf')format('truetype');
+  font-weight:normal;
+  font-style:italic;
+}
+@font-face {
+  font-family:'IMFellEnglish';
+  src:url('../fonts/IM_Fell_English/IMFeENrm28P.ttf')format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face {
+  font-family:'IMFellEnglish';
+  src:url('../fonts/IM_Fell_English/IMFeENit28P.ttf')format('truetype');
+  font-weight:normal;
+  font-style:italic;
+}
+@font-face {
+  font-family:'SpecialElite';
+  src:url('../fonts/Special_Elite/SpecialElite-Regular.ttf')format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
 
 /* Notes and Tables Font Family */
 @font-face{
@@ -119,6 +192,24 @@
   src:url('../fonts/ScalySans/ScalyItalic.otf')format('opentype');
   font-weight:normal;
   font-style:italic;
+}
+@font-face {
+  font-family:'ArchitectsDaughter';
+  src:url('../fonts/Architects_Daughter/ArchitectsDaughter-Regular.ttf')format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face {
+  font-family:'PatrickHand';
+  src:url('../fonts/Patrick_Hand/PatrickHand-Regular.ttf')format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face {
+  font-family:'PatrickHandSC';
+  src:url('../fonts/Patrick_Hand_SC/PatrickHandSC-Regular.ttf')format('truetype');
+  font-weight:normal;
+  font-style:normal;
 }
 
 /* Notes and tables headers */
@@ -195,7 +286,7 @@ body {
 }
 
 html {
-  font-family: 'Balthazar', serif;
+  font-family: 'IMFellEnglish', serif;
   /*color:#695a2f;*/
   font-size: 24px;
   /*line-height: 1.5;*/
@@ -253,7 +344,7 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;*/
   margin-top: .2rem;               
   margin-bottom: .2rem;
-  font-family: MrEaves;
+  font-family: IMFellDWPicaSC;
   font-weight: 800;
   color: #352d18;
   text-rendering: optimizeLegibility;
@@ -287,7 +378,7 @@ h4 {
 
 h5 {
   margin-bottom: .2rem;               
-  font-family: ScalySansCaps;
+  font-family: IMFellDWPicaSC;
   font-size: 1rem;
   font-weight: 900
 }
@@ -467,7 +558,7 @@ blockquote {
   color: #7a7a7a;
   border-left: .25rem solid #e5e5e5;*/
 blockquote{
-    font-family:ScalySans;
+    font-family:IMFellDWPicaSC;
     box-sizing: border-box;
     margin-bottom: 1rem;
     margin-top: .5625rem;
@@ -480,11 +571,11 @@ blockquote{
     box-shadow:.025rem .25rem .875rem #888
 }
 blockquote em {
-    font-family: ScalySans;
+    font-family: IMFellDWPicaSC;
     font-style: italic;
 }
 blockquote strong {
-    font-family: ScalySansCaps;
+    font-family: SpecialElite;
     font-weight: 800;
     letter-spacing: -0.02rem
 }
@@ -530,7 +621,7 @@ img {
     display:block-inline;
     margin-bottom:1rem;
     background-color:#faf7ea;
-    font-family:ScalySans;
+    font-family:IMFellDWPicaSC;
     border-style:solid;
     border-width: .6875rem;
     border-image:url('../images/sidebars.png') 12 round;
@@ -546,11 +637,11 @@ img {
     padding-top:.8rem;
 }
 .descriptive em{
-    font-family:ScalySans;
+    font-family:IMFellDWPicaSC;
     font-style: italic;
 }
 .descriptive strong{
-    font-family:ScalySans;
+    font-family:AIMFellDWPicaSC;
     font-weight:800;
     letter-spacing: -0.02rem;
 }
@@ -559,7 +650,7 @@ pre+.descriptive{
 }
 /* Tables */
 table {                           
-  font-family: ScalySans;
+  font-family: IMFellDWPicaSC;
   width: 100%;
   margin-bottom: .996rem;
   font-size: .833rem;
@@ -589,11 +680,11 @@ tbody tr:nth-child(odd) {
   background-color: #dfd5b9;
 }
 table em {
-    font-family: ScalySans;
+    font-family: IMFellDWPicaSC;
     font-style: italic;
 }
 table strong {
-    font-family: ScalySans;
+    font-family: IMFellDWPicaSC;
     font-weight: 800;
     letter-spacing: -0.02em;
 }
@@ -738,7 +829,7 @@ table strong {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: IMFellDWPicaSC;
   color: #ccc;
   text-align: center;
 }
@@ -798,7 +889,7 @@ a.pagination-item:hover {
     padding-bottom: 0
 }
 .stats hr+section blockquote h3 {
-    font-family: ScalySans;
+    font-family: IMFellEnglish;
     color: #352d18
     font-weight: 400;
     border-bottom: 1px solid #352d18
@@ -811,7 +902,7 @@ a.pagination-item:hover {
   }
 
 .stats hr+section blockquote ul{
-    font-family: ScalySans;
+    font-family: IMFellEnglish;
     color: #352d18;
     list-style: none;
     padding-left: 0;
@@ -820,17 +911,17 @@ a.pagination-item:hover {
 .stats hr+section blockquote ul dl{
     list-style: none;
     padding-left: 0;
-    font-family: ScalySans;
+    font-family: IMFellEnglish;
     color: #352d18;
     font-size: .8315rem;
 }
 .stats hr+section blockquote ul  em {
-    font-family: ScalySans;
+    font-family: IMFellEnglish;
     color: #352d18
     font-style: italic
 }
 .stats hr+section blockquote ul strong {
-    font-family: ScalySans;
+    font-family: IMFellDWPicaSC;
     color: #352d18
     font-weight: 800;
     letter-spacing: -0.02em
@@ -866,9 +957,10 @@ a.pagination-item:hover {
     border: none
 }
 .MainTitle {
-  font-family: Nodesto;
+  font-family: MetalMania;
   text-align: center;
   color: #001e33;
   font-size:6rem;
+  letter-spacing: .5rem;
   /*-webkit-text-stroke: .1rem #001e33;*/
 }
