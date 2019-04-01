@@ -25,7 +25,7 @@ title: Home
   </p>
   <div markdown="1" class="stats">
    <hr/>
-<section>
+<section opacity="0">
     <blockquote>
         <h2>Chris Scholl</h2>
         <em>Medium human, neutral good</em>

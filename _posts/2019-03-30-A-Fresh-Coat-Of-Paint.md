@@ -19,6 +19,22 @@ range of grays. And, inspired by one of my favorite shirt and hoodie
 combinations, I decided the orange would look good with a darker maroon
 or burgundy type red. 
 
+The basic five colors I am using for the site are:
+
+ Blue: #004272
+ Orange: #FF9800
+ Red: #58180D
+ White: #EEF6F6
+ Gray: #80817F
+
+The presence of that red and the use of the hex color #001E33 (a darker 
+value of the base blue color) as the color of the main body header pushes
+the orange toward a yellow hue in the eye. This is cool, because it means
+the site reads vaguely like a primary color palette right now. There will
+be some longevity in this palette, and I bet I can achieve some interesting
+color effects with it. Not every page will look the same, depending on
+the proportion and layout of the colors.
+
 I would like to take the imagery of the site further, and eventually would
 like to create some coffee-stain spills and texture. I would also like to 
 create some white out sections that looked brushed on. Another effect that
