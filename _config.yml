@@ -7,7 +7,7 @@ highlighter:      pygments
 title:            C.O. Scholl
 tagline:          'Front end dev and games'
 description:      'Currently in development'  
-url:              http://COScholl.github.io
+url:              http://COScholl.github.io/
 baseurl:          /
 
 author:
