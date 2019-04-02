@@ -1,3 +1,7 @@
+---
+js: index
+css: index
+---
 ### New Look
 
 After a week, I have started to settle on a color scheme and look.

@@ -14,6 +14,17 @@ author:
   name:           'Mark Otto & Chris Scholl'
   url:            http://COScholl.github.io
 
+# Collections
+collections_dir: collections
+collections:
+  grimoire:
+    output: true
+    permalink: /grimoire/:path/
+  rpgs:
+    output: true
+    permalink: /rpgs/:path/
+
+
 # PermaLinks not supported anymore
 gems:             [jekyll-paginate]
 paginate:         5

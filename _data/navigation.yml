@@ -3,7 +3,7 @@
 - name: About
   link: /about.html
 - name: Grimoire
-  link: grimoire.html
+  link: /grimoire.html
 - name: Role-Playing Games
   link: /rpgs.html
 - name: Blog
