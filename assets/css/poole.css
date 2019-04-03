@@ -321,14 +321,20 @@ a strong {
   color: none;
   text-decoration: none;
 }
+a:link 
+{ 
+text-decoration:none; 
+}
+a:visited {
+  text-decoration: none;
+}
+
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
   text-decoration: none;
 }
-a:visited {
-  text-decoration: none;
-}
+
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
