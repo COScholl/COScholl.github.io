@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ### If You Want to Get to Step X, You Gotta Go Through Step Y
 
 It's way past bedtime.
