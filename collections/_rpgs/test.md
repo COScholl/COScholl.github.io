@@ -1,6 +1,13 @@
+---
+layout: rpgs
+title: Testing it out
+game: Dungeons & Dragons
+subject: Testing
+tagline: Loving it
+---
 <div markdown="1" class="stats">
    <hr style="width:0px"/>
-  <section style="none">
+  <section>
     <blockquote>
          <h2 id="juggernaut-of-the-sock-drawer">Juggernaut of the Sock Drawer</h2>
         <p><em>Tiny guy, annoying evil</em></p>

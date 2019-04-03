@@ -1,0 +1,28 @@
+---
+layout: default
+title: RPGs
+---
+
+<article class="grimoire">
+
+  {% if page.picture %}
+    <img src="{{ page.picture }}" alt="Photo of a {{ page.title | downcase }}">
+  {% endif %}
+
+  <h1>Topic: <em>{{ page.title }}</em></h1>
+  <h3>{{ page.tagline }}</h3>
+
+  <div class="game {{ page.game | downcase }}">
+    Game: <em>{{ page.game }}</em>
+  </div>
+  <br/>
+  <div class="subject {{ page.subject | downcase }}">
+    Subject: <em>{{ page.subject }}</em>
+  </div>
+  <br/>
+  <div>
+    {{ content }}
+  </div>
+
+</article>
+

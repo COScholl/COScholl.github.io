@@ -952,6 +952,7 @@ a.pagination-item:hover {
     height: 6px;
     margin: 4px 0;
     background-image: url('/assets/images/arrow-right-gray.png');
+    background-image-width: 100%;
     /*background-size: 100% 100%;*/
     background-repeat: no-repeat;
     background-size: 100% 100%;

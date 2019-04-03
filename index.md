@@ -24,8 +24,8 @@ title: Home
     my motivations by clicking the <strong>About</strong> link in the sidebar nav!
   </p>
   <div markdown="1" class="stats">
-   <hr/>
-<section opacity="0">
+   <hr style="width:0px"/>
+  <section opacity="0">
     <blockquote>
         <h2>Chris Scholl</h2>
         <em>Medium human, neutral good</em>
