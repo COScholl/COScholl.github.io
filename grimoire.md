@@ -9,8 +9,10 @@ title: Grimoire
 </div>
 <div>
 	{% for grimoirePage in site.grimoire %}
+	<br/>
+	<br/>
 	 <ul>
-	 	<li><a href="{{ site.baseurl }}grimoire/{{grimoirePage.slug}}" class="{% if page.url contains grimoirePage.slug %}current{% endif %}">{{ grimoirePage.title }}</a></li>
+	 	<h2><a href="{{ site.baseurl }}grimoire/{{grimoirePage.slug}}" class="{% if page.url contains grimoirePage.slug %}current{% endif %}">{{ grimoirePage.title }}</a></h2>
 	 </ul>	
 	 {% endfor %}
 </div>

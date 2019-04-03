@@ -10,7 +10,9 @@ title: RPGs
 <div>
 	{% for rpg in site.rpgs %}
 	 <ul>
-	 	<li><a href="{{ site.baseurl }}rpgs/{{rpg.slug}}" class="{% if page.url contains rpg.slug %}current{% endif %}">{{ rpg.title }}</a></li>
+	 	<br/>
+	 	<br/>
+	 	<h2><a href="{{ site.baseurl }}rpgs/{{rpg.slug}}" class="{% if page.url contains rpg.slug %}current{% endif %}">{{ rpg.title }}</a></h2>
 	 </ul>	
 	 {% endfor %}
 </div>
