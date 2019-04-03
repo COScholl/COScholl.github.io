@@ -1,8 +1,6 @@
 ---
 layout: default
 title: Home
-css: index
-js: index
 ---
 <div>
   <div>
