@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 ---
 
 ### If You Want to Get to Step X, You Gotta Go Through Step Y
