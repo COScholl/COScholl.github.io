@@ -1,14 +1,5 @@
 /*
- *                        ___
- *                       /\_ \
- *  _____     ___     ___\//\ \      __
- * /\ '__`\  / __`\  / __`\\ \ \   /'__`\
- * \ \ \_\ \/\ \_\ \/\ \_\ \\_\ \_/\  __/
- *  \ \ ,__/\ \____/\ \____//\____\ \____\
- *   \ \ \/  \/___/  \/___/ \/____/\/____/
- *    \ \_\
- *     \/_/
- *
+ * Based on Poole and styling from GM Binder and Homebrewery
  * Designed, built, and released under MIT license by @mdo. Learn more at
  * https://github.com/poole/poole.
  */
@@ -327,12 +318,12 @@ a {
   text-decoration: none;
 }
 a strong {
-  color: inherit;
+  color: none;
 }
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* Headings */
@@ -366,7 +357,7 @@ h2 {
   font-size: 1.66rem;
 }
 h3 {
-  border-bottom: .125rem solid #ffb499;
+  border-bottom: .125rem solid #B7BCBA;
   margin-top: 1.5rem;
   font-size: 1.25rem;
 }
