@@ -319,10 +319,14 @@ a {
 }
 a strong {
   color: none;
+  text-decoration: none;
 }
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
+  text-decoration: none;
+}
+a:visited {
   text-decoration: none;
 }
 
