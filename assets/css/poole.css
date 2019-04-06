@@ -971,3 +971,7 @@ a.pagination-item:hover {
   letter-spacing: .5rem;
   /*-webkit-text-stroke: .1rem #001e33;*/
 }
+.underlineTitle {
+  text-decoration: underline;
+  font-style: normal;
+}
