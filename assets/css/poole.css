@@ -430,13 +430,17 @@ em {
 }
 sup {
     vertical-align: super;
-    font-size:      xx-small;
+    font-size:      smaller;
     line-height:    0;
 }
 sub {
     vertical-align: sub;
     font-size:      smaller;
     line-height:    0;
+}
+
+sup + sub {
+  position: left;
 }
 
 
