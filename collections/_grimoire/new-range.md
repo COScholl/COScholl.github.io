@@ -6,7 +6,7 @@ subject: Converting one range of values to fit another range
 tagline: What were those stats again?
 ---
 
-*edit After laying down, I realized my math was wrong. I tried to divide* **v<sub>original n-1</sub> - v<sub>original 0</sub>**
+* **edit:** After laying down, I realized my math was wrong. I tried to divide* **v<sub>original n-1</sub> - v<sub>original 0</sub>**
 *from both* **v<sub>new n-1</sub> - v<sub>new 0</sub>** *and* **v<sub>i</sub> - v<sub>0</sub>** *. We only need to divide* **v<sub>new n-1</sub> - v<sub>new 0</sub>** *one time.*
 
 #### Use Case: 
