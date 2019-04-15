@@ -102,4 +102,4 @@ NewValues(oldMin, oldMax, newMin, newMax)
 ```
 #### Why Did I Have To Learn This?
 I have been interested in converting RPG creatures from one game to another since I started out playing *Dungeon Crawl Classics*.
-I started to collect D&D books, as well as other RPG books and RPG websites, and I became more interested in different games and their flavor, storytelling, or mechanics. In building a campaign world for fifth edition, I am continuing to explore porting concepts and characters in to fifth edition, or from fifth edition to other games. I would like to write more code that takes various mechanics and weights the mechanics evenly.
+I started to collect D&D books, as well as other RPG books and reading RPG websites, and I became more interested in different games and their flavor, storytelling, or mechanics. In building a campaign world for fifth edition, I am continuing to explore porting concepts and characters in to fifth edition, or from fifth edition to other games. I would like to write more code that takes various mechanics and weights the mechanics evenly.
