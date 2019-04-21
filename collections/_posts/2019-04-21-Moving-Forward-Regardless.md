@@ -23,13 +23,13 @@ to understand which things are the priority, and which things I need to put asid
 
 For the past who knows how many years, I have been spinning my wheels, learning a little
 of this technology and a little of that technology. Ultimately, what I learned from this
-is some high-level concepts and a view into what might be needed software development
+is some high-level concepts and a view into what might be needed in software development
 environments. What I did not learn is mastery of any particular technology. You only 
 need the skills that are necessary for the task at hand, and if you don't have a task to 
 do or don't know what task you need to tackle, you won't know what tools you
 need. If you don't know what tools you need, you can't focus on developing the right skills.
 
-There are a lot of people who in the software industry who had to learn a lot of things to fit 
+There seem to be a lot of people in the software industry who had to learn a lot of things to fit 
 different situations, and found a way to connect those domains of knowledge into a cohesive collection of
 skills. They were fortunate enough to struggle in an environment where they saw a problem or set
 of problems, and applied themselves to fill the gap in knowledge needed to solve those problems.
