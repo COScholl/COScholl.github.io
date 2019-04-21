@@ -5,14 +5,15 @@ game: Dungeons & Dragons Fifth Edition
 subject: Creature Stats
 tagline: Go Big or Go Home!
 ---
-*Edit* 4/13/2019 I have added the first 5 creatures and their giant forms to the page
+*Original post:* 4/13/2019
+
+*Edit* 4/21/2019 Crab, Crocodile, and related Giant versions addded
 
 I started this little exercise last week: statistics for converting creatures into giant versions.
 As someone who works in the world of data science, I know that it isn't always easy to get your
 datums all organized and cleaned, so even though there isn't too many giant creatures in the
 *Monster Manual*{:.underlineTitle}, it is taking some time to get all of the data points that I 
 want into the table format that I need, I will be updating this page as I add more data points.
-
 
 The first thing I want to know is, what makes the creature giant? If we look at *Appendix A: Miscellaneous
 Creatures* from the fifth edition *Monster Manual*{:.underlineTitle}, we can get a sense for that.
@@ -38,6 +39,8 @@ So, let's compare some statistical elements for creatures and their giant counte
 | Bat   | Giant Bat   | size: tiny to large  | 3 sizes |
 | Boar  | Giant Boar  | size: medium to large  | 1 size  |
 | Constrictor Snake  | Giant Constrictor Snake  | size: large to huge  | 1 size  |
+| Crab   | Giant Crab   | size: tiny to medium  | 2 sizes |
+| Crocodile   | Giant Crocodile   | size: large to huge  | 1 size |
 
 #### Armor Class
 
@@ -48,6 +51,8 @@ So, let's compare some statistical elements for creatures and their giant counte
 | Bat   | Giant Bat   | Armor Class: 12 to 13  | 1 |
 | Boar  | Giant Boar  | Armor Class: 11 to 12  | 1 |
 | Constrictor Snake  | Giant Constrictor Snake  | Armor Class: 12  | no change |
+| Crab   | Giant Crab   | Armor Class: 11 to 15  | 3 points |
+| Crocodile   | Giant Crocodile   | Armor Class: 12 to 14  | 2 points |
 
 #### Hit Dice
 
@@ -58,6 +63,8 @@ So, let's compare some statistical elements for creatures and their giant counte
 | Bat   | Giant Bat   | hit die: d4 to d10  | 3 standard dice |
 | Boar  | Giant Boar  | hit die: d8 to d10  | 1 standard dice |
 | Constrictor Snake  | Giant Constrictor Snake  | hit die: d10 to d12   | 1 standard dice |
+| Crab   | Giant Crab   | hit die: d4 to d8  | 2 standard dice |
+| Crocodile   | Giant Crocodile   | hit die: d10 to d12  | 2 standard dice |
 
 #### Speed
 
@@ -71,6 +78,10 @@ So, let's compare some statistical elements for creatures and their giant counte
 | Boar  | Giant Boar  | speed: 40 ft. to 40 ft.  | no change |
 | Constrictor Snake  | Giant Constrictor Snake  | speed: 30 ft. to 30 ft.  | no change |
 | Constrictor Snake  | Giant Constrictor Snake  | speed: swim 30 ft. to 30 ft.  | no change |
+| Crab   | Giant Crab   | speed: 20 ft. to 30 ft.  | 10 ft. |
+| Crab   | Giant Crab   | speed: swim 20 ft. to 30 ft.  | 10 ft. |
+| Crocodile   | Giant Crocodile   | speed: 20 ft. to 30 ft.  | 10 ft. |
+| Crocodile   | Giant Crocodile   | speed: swim 20 ft. to 50 ft.  | 30 ft. |
 
 #### Ability Scores
 
@@ -111,6 +122,20 @@ So, let's compare some statistical elements for creatures and their giant counte
 | Constrictor Snake   | Giant Constrictor Snake   | wisdom: 10 | no change |
 | Constrictor Snake   | Giant Constrictor Snake   | charisma: 3 | no change |
 | Constrictor Snake   | Giant Constrictor Snake   | Ability Score bonus total -3 to -1 | -2	 |
+| Crab   | Giant Crab   | strength: 2 to 13  | 11 |
+| Crab   | Giant Crab   | dexterity: 11 to 15  | 4 |
+| Crab   | Giant Crab   | constitution: 10 to 11  | 4 |
+| Crab   | Giant Crab   | intelligence: 1  | no change |
+| Crab   | Giant Crab   | wisdom: 8 to 9 | 1 |
+| Crab   | Giant Crab   | charisma: 2 to 3 | 1 |
+| Crab   | Giant Crab   | Ability Score bonus total 12 to 17 | 5 |
+| Crocodile   | Giant Crocodile   | strength: 15 to 21  | 6 |
+| Crocodile   | Giant Crocodile   | dexterity: 10 to 9  | -1 |
+| Crocodile   | Giant Crocodile   | constitution: 13 to 17  | 4 |
+| Crocodile   | Giant Crocodile   | intelligence: 2  | no change |
+| Crocodile   | Giant Crocodile   | wisdom: 10 | no change |
+| Crocodile   | Giant Crocodile   | charisma: 5 to 7 | 2 |
+| Crocodile   | Giant Crocodile   | Ability Score bonus total 18 to 22 | 4 |
 
 #### Skills
 
@@ -118,6 +143,9 @@ So, let's compare some statistical elements for creatures and their giant counte
 |:--------:|:-------:|:--------|:--------|
 | Ape   | Giant Ape   | skills: Athletics +5 to +9 | 4 |
 | Ape   | Giant Ape   | skills: Perception +3 to +4 | 1 |
+| Crab   | Giant Crab   | skills: Stealth +2 to +4 | 2 |
+| Crab   | Giant Crab   | skills: Perception +3 to +4 | 1 |
+| Crocodile   | Giant Crocodile   | skills: Stealth +2 to +5 | 3 |
 
 #### Senses
 
@@ -131,6 +159,9 @@ So, let's compare some statistical elements for creatures and their giant counte
 | Boar  | Giant Boar  | Senses: passive Perception 9 to 8  | -1  |
 | Constrictor Snake  | Giant Constrictor Snake  | Senses: blindsight 10 ft.  | no change  |
 | Constrictor Snake  | Giant Constrictor Snake  | Senses: passive Perception 10 to 12  | 2  |
+| Crab   | Giant Crab   | Senses: passive Perception 9 | none |
+| Crab   | Giant Crab   | blindsight 30 ft. | none |
+| Crocodile   | Giant Crocodile   | Senses: passive Perception 10 | none |
 
 #### Challenge Rating
 
@@ -141,7 +172,9 @@ So, let's compare some statistical elements for creatures and their giant counte
 | Bat   | Giant Bat   | Challenge: 0 to 1/4 | 2 levels of CR |
 | Boar  | Giant Boar  | Challenge: 1/4 to 2 | 3 levels of CR  |
 | Constrictor Snake  | Giant Constrictor Snake  | Challenge: 1/4 to 2 | 3 levels of CR  |
-|||||
+| Crab   | Giant Crab   | Challenge: 0 to 1/8 | 1 level of CR |
+| Crocodile   | Giant Crocodile   | Challenge: 1/2 to 5 | 5 levels of CR |
+
 
 #### Attributes
 
@@ -151,6 +184,8 @@ So, let's compare some statistical elements for creatures and their giant counte
 | Bat   | Giant Bat   | Attribute: *Echolocation* | no change |
 | Bat   | Giant Bat   | Attribute: *Keen Hearing* | no change |
 | Boar  | Giant Boar  | Attribute: *Charge* and *Relentless*  | no change  |
+| Crab   | Giant Crab   | Attribute: *Amphibious* | no change |
+| Crocodile   | Giant Crocodile   | Attribute: *Hold Breath* | no change |
 
 #### Actions
 
@@ -161,6 +196,8 @@ So, let's compare some statistical elements for creatures and their giant counte
 | Bat  | Giant Bat   | Actions: one attack | no change |
 | Boar  | Giant Boar  | Actions: one attack  | no change  |
 | Constrictor Snake  | Giant Constrictor Snake  | Actions: one attack  | no change  |
+| Crab   | Giant Crab   | Actions: 1 | no change |
+| Crocodile   | Giant Crocodile   | Actions: 1 to Multiattack | 1 attack |
 
 #### Attack Bonus
 
@@ -171,6 +208,8 @@ So, let's compare some statistical elements for creatures and their giant counte
 | Bat   | Giant Bat   | attack bonus: +0 to +4 | 4 |
 | Boar  | Giant Boar  | attack bonus: +3 to +5  | 1  |
 | Constrictor Snake  | Giant Constrictor Snake  | attack bonus: +4 to +6  | 2  |
+| Crab   | Giant Crab   | attack bonus: +0 to +3 | 3 |
+| Crocodile   | Giant Crocodile   | attack bonus: +4 to +8 | 4 |
 
 #### Attacks
 
@@ -200,7 +239,15 @@ So, let's compare some statistical elements for creatures and their giant counte
 | Constrictor Snake   | Giant Constrictor Snake   | attack die, natural weapon *constrict*: d6 | no change |
 | Constrictor Snake   | Giant Constrictor Snake   | number of attack dice, natural weapon *constrict*: 1 to 2 | 2 dice |
 | Constrictor Snake   | Giant Constrictor Snake   | damage output, natural weapon *constrict*: 6 to 13 | 7 |
-
+| Crab   | Giant Crab   | attack die, natural weapon *claw*: none to d6 | 2 standard dice |
+| Crab   | Giant Crab   | number of attack dice, natural weapon *claw*: none to 1 | 1 die |
+| Crab   | Giant Crab   | damage output, natural weapon *claw*: 1 to 4 | 3 |
+| Crocodile   | Giant Crocodile   | attack die, natural weapon *bite*: d10 | no change |
+| Crocodile   | Giant Crocodile   | number of attack dice, natural weapon *bite*: 1 to 2 | 2 die |
+| Crocodile   | Giant Crocodile   | damage output, natural weapon *bite*: 7 to 21 | 14 |
+| Crocodile   | Giant Crocodile   | attack die, natural weapon *tail*: none to d8 | 3 standard dice |
+| Crocodile   | Giant Crocodile   | number of attack dice, natural weapon *tail*: none to 2 | 2 die |
+| Crocodile   | Giant Crocodile   | damage output, natural weapon *tail*: 0 to 13 | 13 |
 
 #### Damage Per Round
 
@@ -211,3 +258,5 @@ So, let's compare some statistical elements for creatures and their giant counte
 | Bat   | Giant Bat   | damage output, per round max: 1 to 5 | 4 |
 | Boar  | Giant Boar  | damage output, per round max:  7 to 17 | 10 |
 | Constrictor Snake  | Giant Constrictor Snake  | damage output, per round max:  6 to 13 | 7 |
+| Crab   | Giant Crab   | damage output, per round max: 1 to 4 | 3 |
+| Crocodile   | Giant Crocodile   | damage output, per round max: 7 to 34 | 27 |
