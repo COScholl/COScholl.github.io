@@ -318,6 +318,9 @@ body {
 */
 
 /* No `:visited` state is required by default (browsers will use `a`) */
+
+}
+
 a {
   color: #695a2f;
   text-decoration: none;
@@ -337,8 +340,9 @@ a:visited {
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
-  text-decoration: none;
+  color: #001e33;
 }
+
 
 
 /* Headings */

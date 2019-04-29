@@ -317,7 +317,7 @@ html {
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-  text-decoration: none;
+  color: #af9650;
 }
 .sidebar-nav-item.active {
   font-weight: bold;
