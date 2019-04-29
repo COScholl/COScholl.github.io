@@ -340,7 +340,7 @@ a:visited {
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
-  color: #001e33;
+  color: #268bd2;
 }
 
 
