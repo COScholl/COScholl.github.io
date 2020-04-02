@@ -9,18 +9,18 @@ title: Home
   </div>
   <hr/>
   <p>
-    Welcome, adventurers! This website is the springboard for 
+    Welcome, adventurers! This website is the springboard for
     all of my creative endeavors in the realms of software engineering
     and roleplaying game design.
   </p>
   <p>
     It is my goal to post code snippets in the <strong>Grimoire</strong> section,
-    to post creature designs and other role-playing game content in the 
-    <strong>Role-Playing Games</strong> section, and to add more specialized 
+    to post creature designs and other role-playing game content in the
+    <strong>Role-Playing Games</strong> section, and to add more specialized
     content as my career evolves.
   </p>
   <p>
-    Expect this page to change over time, and get to know about 
+    Expect this page to change over time, and get to know about
     my motivations by clicking the <strong>About</strong> link in the sidebar nav!
   </p>
   <div markdown="1" class="stats">
@@ -32,7 +32,7 @@ title: Home
         <hr/>
         <ul>
             <dl><strong>Armor Class</strong> 10</dl>
-            <dl><strong>Hit Points</strong> 9(2d8)</dl>
+            <dl><strong>Hit Points</strong> 22(4d8 + 4)</dl>
             <dl><strong>Speed</strong> 30 feet</dl>
         </ul>
         <hr/>
@@ -51,8 +51,8 @@ title: Home
                 <tr>
                     <td style="text-align:center">10 (+0)</td>
                     <td style="text-align:center">10 (+0)</td>
-                    <td style="text-align:center">10 (+0)</td>
-                    <td style="text-align:center">10 (+0)</td>
+                    <td style="text-align:center">12 (+1)</td>
+                    <td style="text-align:center">12 (+1)</td>
                     <td style="text-align:center">10 (+0)</td>
                     <td style="text-align:center">10 (+0)</td>
                 </tr>
@@ -69,15 +69,16 @@ title: Home
             <strong>Challenge</strong> 1/4 (50 XP)
         </ul>
         <hr/>
+        <p><strong><em>Says it well.</em></strong> "Chris Scholl has advantage when communicating with teammates"</p>
+        <p><strong><em>I'll learn what you know.</em></strong> "Chris Scholl is eager to learn and share knowledge with fellow creatures, whether through declaration, demonstration, or documentation."</p>
         <p><strong><em>Way Too Intense.</em></strong> "No, I'm not upset. I'm just thinking about something. Seriously."</p>
         <h3 id="actions">Actions</h3>
-        <p><strong><em>Step on toes.</em></strong> <em>Melee Weapon Attack:</em> +0 to hit, reach 5ft., one target. <em>Hit</em> 5 (1d10 + 0) </p>
+        <p><strong><em>Accidentally step on toes.</em></strong> <em>Melee Weapon Attack:</em> +0 to hit, reach 5ft., one target. <em>Hit</em> 5 (1d10 + 0) </p>
     </blockquote>
 </section>
 <h3>About Me</h3>
 <p>
-  I am currently a Junior Data Analyst for Groundspeed Analytics, Inc. I am working on multi-classing as Junior Developer with
-  a focus on front-end development.
+  I am a multi-classed Software Engineer with two levels of Data Analyst. I work with React, Redux, and various JavaScript libraries to build client-facing applications. I have used ABBYY tools to build and test layouts for OCR capture of insurance documents using conditional logic, and I have some domain knowledge around property and casualty insurance products. I would love to work for a company that seeks to enrich humans and make a positive impact in the world.
 </p>
   </div>
 </div>
@@ -115,4 +116,3 @@ title: Home
   {% endif %}
 </div>
 -->
-
