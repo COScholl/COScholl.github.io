@@ -1,0 +1,22 @@
+
+### It's Not As Bad As I Thought
+
+Immediately after getting laid off, I filed for unemployment and then started working on my personal project with my GitHub account. I have also been applying for jobs and getting my resume in order, as well as writing a couple of cover letters. I have to say, getting laid off (aside from the current environment with the job market), wasn't nearly as bad as I had worried it would be.
+
+I need to qualify that last sentence. The reason why it wasn't as bad as I thought it might be is because what my fears were when I moved into being a full-time engineer. You hear people say that they have experienced impostor syndrome. I felt that very much. It was hard to go into work some days and just know that I was terrible at programming compared to members of my team. Everyone seemed so much more knowledgeable and capable when I looked at my work. I was constantly afraid that my work was not good enough, and that I might get fired- at any moment.
+
+Never mind that my code was being pushing to production every sprint. Never mind that I would occasionally write scripts that a senior dev would look at and remark, "Huh. I didn't know you could do that. I usually write something like that in this way..." Never mind that before our company ran into problems, I would hear about how clean or readable my code was. The fact is, I had something to offer my team, and when I was let go, I had some doubts. I thought, maybe it was because I really _wasn't_ as good as my teammates. That could still be true, but there are other considerations, and after diving into learning on my own again, I am learning something really valuable: _I have grown_.
+
+### Interview Prep
+
+I have a code test coming up this week. It is a pre-screen for the interview process. It will be my first, and I was starting to feel pretty nervous, so I stepped back for a couple of days to work on sharpening the data-structures and algorithms knowledge that I had started to build up before I got so busy with my data analyst gig (before I moved to engineering).
+
+I went to freeCodeCamp and started running through the JavaScript Algorithms and Data Structures Certification. I knocked out the Basic JavaScript section rather quickly, and saw a couple of things that I hadn't really seen in a while (I see you `parseInt()`!). I jumped in on the ES6 section, next, and although I am pretty well accustomed to ES6+ conventions, I know that I can glean a few more bits of knowledge to start incorporating into my coding practice. I know that I have been all about functional programming in React, but understanding how those React classes worked in retrospect can only make me a better job candidate.
+
+I am not sure that I will go through the whole certification this weekend, but I will definitely pay attention to object-oriented programming and algorithm scripting. What I am sure of, is that I am getting something valuable out of this practice. I am feeling confident because I have already solved a ton of problems, and what I am looking at now doesn't seem at all alien or difficult compared to what it might have seemed like before I became an engineer.
+
+### What Am I?
+
+I was super grateful to have mentors at my previous job. They took a chance on me, and we were able to carve some time out for me to work on our flagship application. I made my first code commits and really worked my managers over to allow for more time to tackle small tickets from time to time. Eventually, we were all able to set the expectation that I would spend _X_% of my time writing code and the rest of the time working with insurance data. When finally I transitioned to developer, I didn't feel comfortable calling myself a "Software Engineer," but put the title "Junior Developer" on my resume. After all, I had been working so hard to get to that place, and I didn't really feel like an engineer.
+
+In that I still need a mentor's guidance and knowing that everyone that I will work with in the near future will have something to teach me, I am a "junior" for sure. However, for some reason the title "Junior Developer" doesn't feel right. "Junior Software Engineer," or "Software Engineer I" feels right to me at the moment. I am capable, but not fully realized in my craft. I can solve problems, work with others, and get things done. I hope that I get to do all of that and be paid for it again in the very near future.
