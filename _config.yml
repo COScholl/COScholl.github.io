@@ -1,13 +1,13 @@
 # Dependencies
 markdown:         kramdown
-highlighter:      pygments
+highlighter:      rouge
 future: true
 
 
 # Setup
 title:            C.O. Scholl
 tagline:          'Front end dev and games'
-description:      'Currently in development'  
+description:      'Currently in development'
 url:              http://COScholl.github.io
 baseurl:          /
 
@@ -34,4 +34,4 @@ paginate_path:    "page:num"
 # Custom vars
 version:          "Fifth Edition"
 
-github: [metadata] 
+github: [metadata]
