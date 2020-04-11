@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 ### Nine Hours is Not Enough
 
 I mentioned in my last post that Ideally I would work on one domain of knowledge for nine hours every week. Let me tell you that in preparing my last grimoire entry, I spent about as much time writing and reading. That means, no coding practice, really. 
@@ -14,7 +18,7 @@ Another issue with the habits that I developed was that I was researching *distr
 
 A third issue was that when I was procrastinating through research, the bulk of my time was spent looking for more information and not necessarily reading, learning, or practicing. Any scholar will tell you that it is important to find the right resources, but that is not enough. One actually has to explore those resources fully to get the most out of them. I would get a full list of resources, and then skim through them and pick up little bits of this or that, but not get a deep understanding of what I was looking at. It was mostly a time sink.
 
-Finally, the biggest sin committed: Not practicing what I had committed to learn. Spanish and art are practical, and I would not have graduated with as high marks as I did had I not practiced. However, that was within the confines of a structured system. Outside of school, I have not been very good at maintaining a high-level of deep study and practice. 
+Finally, the biggest sin committed: Not practicing what I had committed to learn. Spanish and art are practical, and I would not have graduated with as high marks as I did had I not practiced. However, that was within the confines of a structured system. Outside of school, I have not been very good at maintaining a high-level of deep study and practice.
 
 So, back to nine hours: It's a great place to start. The thing about spending the time that I did on my grimoire entry on React elements and components is that it was deliberate, it was focused, it utilized kinetic reinforcement (typing), and I spent time trying to structure it in such a way as to put every element into a context that could be understood. That is not to say that what I wrote was perfect, and I bet I made some mistakes in how I presented information. I also could have not understood everything correctly, but at least I have a better chance of retaining information so that when I learn that my method of thinking about what I wrote was wrong, I will be primed to learn from the mistake.
 
@@ -42,6 +46,3 @@ I think my *Giantism in 5e* project might take a back seat for a while longer.
 >	* Define approach
 >	* Establish specific groups for comparing data
 >	* Write up one post analyzing results for each data group
-
- 
-

@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 #### Two Weeks of Fun
 
 True to my word: two React SPAs in two weeks. This kept me a bit busy, so I really didn't have a chance to post anything last week, or to work on the site at all. Also, last weekend was a family-centric weekend, so I wasn't home as much as I normally would be.

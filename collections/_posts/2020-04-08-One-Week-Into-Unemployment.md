@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 ### Status
 
 When I was laid off amidst the novel coronovirus pandemic, the first thing I did was take stock. I had a work computer, A Thinkpad Carbon X1, which I had been using for all of my private projects as well, and a Thinkpad T530 that I got secondhand and had loaded with Ubuntu 18.04. The T530 had errors that prevented it from completing startup, and so I decided that I would wipe the thing and install Ubuntu 19.10. While I was removing personal files and securely deleting them off of my work system, I was running the Lenovo diagnostics tool on the T530. It failed a couple of memory tests (a concern to be sure, since I can't just go out and buy a new system with no income), but it was what I had available (aside from a handful of Raspberry Pis that I had learned to program on when my college Macbook's logic board crapped out in 2015).

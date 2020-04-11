@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 ### COVID-19 Layoff
 
 I was let go from my job yesterday because of the COVID-19 Pandemic. When you work for an insuretech company, and insurance carriers and brokers are scrambling because of the impact of COVID-19 on their policies and because the market is tanking, well, suddenly their appetite for investments in startups dry up. At least, that is what I have heard the reason for layoffs at my company were. I was the most junior person on the Applications team. I had made it to Software Engineer I, and was working up to a transition to Software Engineer II.

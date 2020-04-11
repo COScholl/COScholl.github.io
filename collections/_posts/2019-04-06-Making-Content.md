@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 ### Working on Some Things
 
 To-do:
@@ -20,12 +24,12 @@ for giantism in fifth edition, and how to convert creatures.
 
 There are some interesting things from the RPG *Dungeon Crawl Classics*
 that I would like to explore, and I think working on the difference between
-giant creatures and their non-giant counterparts could be useful in 
+giant creatures and their non-giant counterparts could be useful in
 modifying creatures in D&D based on some of those cool DCC ideas. It is also
-going to be useful in some conversions that I plan to explore within the 
+going to be useful in some conversions that I plan to explore within the
 various D&D editions.
 
-Furthermore, I need to get some ReactJS projects going. The past month, my 
+Furthermore, I need to get some ReactJS projects going. The past month, my
 weekends have pretty much revovled around getting this site up, and posting
 here and there. Now that the basics are in place, I will need to continue working
 on my professional development. Studying is important.

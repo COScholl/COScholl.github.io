@@ -1,3 +1,6 @@
+---
+layout: post
+---
 
 ### It's Not As Bad As I Thought
 
