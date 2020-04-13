@@ -46,7 +46,7 @@ Finds the smallest possible part of the string that satisfies the regex pattern.
 ##### Metacharacters
 * `.` - wildcard; match any one character
 * `-` - range; match any character withing range [<start> - <end>] (inclusive)
-* `^` - beginning of string \| not; outside of character class: find regex at beginning of a string (/^<pattern>/) \| inside of a character class: exclude all the characters that follow the caret (/[^<pattern>]/)
+* `^` - beginning of string \| not; outside of character class: find regex at beginning of a string (/^<pattern>/) | inside of a character class: exclude all the characters that follow the caret (/[^<pattern>]/)
 * `$` - end of string; search end of string for regex pattern (/<pattern>$/)
 * `+` - one or more consecutive; character appears at least once, but may be repeated
 * `*` - zero or more consecutive; character appears any number of times (or not at all)
