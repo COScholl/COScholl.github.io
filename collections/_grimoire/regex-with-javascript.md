@@ -59,28 +59,28 @@ Finds the smallest possible part of the string that satisfies the regex pattern.
 * `{min, max}` - return number of characters that match pattern between min and max number of characters (inclusive)
 * `{num}` - return exact number of matches
 * `?` - zero plus match; check for possible existence of a match
-* `\<string>(?=\<following string>)`- positive lookahead; match \<string> only if followed by \<following string>
-* `\<string>(?!\<following string>)`- negative lookahead; match \<string> only if not followed by \<following string>
-* `(\<expression 1>),(\<expression 2>),(\<expression 3>),...,(\<expression n>) = $1,$2,$3,...,$n` - capture group; For each capture group _(\<expression n>)_, a stand-in representation _\n_ can be placed within a larger expression to represent the parenthetic expression so that the parenthetic expression does not need to be written out again. A replacement string can use the _$n_ variable to save the capture group and re-arrange it
+* `<string>(?=<following string>)`- positive lookahead; match \<string> only if followed by \<following string>
+* `<string>(?!<following string>)`- negative lookahead; match \<string> only if not followed by \<following string>
+* `(<expression 1>),(<expression 2>),(<expression 3>),...,(<expression n>) = $1,$2,$3,...,$n` - capture group; For each capture group _(\<expression n>)_, a stand-in representation _\n_ can be placed within a larger expression to represent the parenthetic expression so that the parenthetic expression does not need to be written out again. A replacement string can use the _$n_ variable to save the capture group and re-arrange it
 
 ##### Methods
-* `\<regex>.test(\<string>)` - returns `true` or `false`; test for match in a string
-* `\<string>.match(\<regex>)` - returns an array or object containing matches (different output depending on whether or not the 'g' flag is used) or `null`;
+* `<regex>.test(<string>)` - returns `true` or `false`; test for match in a string
+* `<string>.match(<regex>)` - returns an array or object containing matches (different output depending on whether or not the 'g' flag is used) or `null`;
 
 	* when `g` flag is used, outputs array with all matched string literals
 	* when no flag is used, outputs an object with length property of `1` and with structure:
 	```
 	[
-		\<first complete match>,
-		index: \<index of input string where first complete match starts>,
-		input: \<complete input string>
+		<first complete match>,
+		index: <index of input string where first complete match starts>,
+		input: <complete input string>
 	]
 	```
 		* \<output>[0] returns \<first complete match>
 		* \<output>.index returns \<index of input string where first complete match starts>
 		* \<output>.input returns \<complete input string>
 
-* `\<string>.replace(\<regex>, \<replacement string>)`
+* `<string>.replace(<regex>, <replacement string>)`
 ##### Flags
 * `i` - "ignore case" (RegExp.prototype.ignoreCase)
 * `g` - "global search (find more than one instance)" (RegExp.prototype.global)
