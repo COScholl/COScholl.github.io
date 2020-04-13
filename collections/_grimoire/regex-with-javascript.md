@@ -14,13 +14,13 @@ search patterns for strings
 * regular expressions can be formally defined using set theory
 	* see https://en.wikipedia.org/wiki/Regular_expression, _Formal language theory_
 * the syntax for regular expressions is `/\<pattern>/\<modifiers>`
-* regular expressions in JavaScript are objects, and can be also created with a class constructor using the `new RegExp('\<pattern>', '\<modifier>')` expression, or `new RegExp('/\<pattern>/', '\<modifier>')`, as well as assigning `/\<pattern>/\<modifiers>` to a variable
+* regular expressions in JavaScript are objects, and can be also created with a class constructor using the `new RegExp('<pattern>', '<modifier>')` expression, or `new RegExp('/<pattern>/', '<modifier>')`, as well as assigning `/<pattern>/<modifiers>` to a variable
 * the resulting RegExp object has methods that we can use to test our strings with
 * strings that we want to test against regular expressions using JavaScript are piped into the test via these methods
 ```
 let string = 'some string';
-let regEx = /\<pattern>/\<modifiers>;
-let otherRegex =  new RegExp('\<pattern>', '\<modifier>');
+let regEx = /<pattern>/<modifiers>;
+let otherRegex =  new RegExp('<pattern>', '<modifier>');
 let test = regEx.test(string);
 ```
 * other methods take the regular expressions as an input and are called on the string itself
