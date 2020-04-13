@@ -2,7 +2,7 @@
 layout: grimoire
 title: String Has All Letters in Another With JavaScript
 technologies: JavaScript
-subject: string
+subject: Algorithms
 tagline: algorithm
 ---
 

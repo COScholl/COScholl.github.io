@@ -2,7 +2,7 @@
 layout: grimoire
 title: Create Vector from Array with JavaScript
 technologies: JavaScript
-subject: arrays
+subject: Algorithms
 tagline: algorithm
 ---
 

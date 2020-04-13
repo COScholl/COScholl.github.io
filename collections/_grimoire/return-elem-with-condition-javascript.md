@@ -2,8 +2,8 @@
 layout: grimoire
 title: Return First Element of Array with Condition JavaScript
 technologies: JavaScript
-subject: Array manipulation
-tagline: Flags
+subject: Algorithms
+tagline: algorithm
 ---
 
 #### Use Case:

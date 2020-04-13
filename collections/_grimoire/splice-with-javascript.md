@@ -2,8 +2,8 @@
 layout: grimoire
 title: Splice Array Into Another JavaScript
 technologies: JavaScript
-subject: array manipulation
-tagline: Flags
+subject: Algorithms
+tagline: algorithm
 ---
 
 #### Use Case:

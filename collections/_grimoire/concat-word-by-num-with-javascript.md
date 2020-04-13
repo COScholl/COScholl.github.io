@@ -2,8 +2,8 @@
 layout: grimoire
 title: Concatenate Words by Number with JavaScript
 technologies: JavaScript
-subject: String verification
-tagline: Flags
+subject: Algorithms
+tagline: algorithm
 ---
 
 #### Use Case:

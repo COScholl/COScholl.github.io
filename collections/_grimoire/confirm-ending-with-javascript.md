@@ -2,8 +2,8 @@
 layout: grimoire
 title: Confirm Ending with JavaScript
 technologies: JavaScript
-subject: String verification
-tagline: Flags
+subject: Algorithms
+tagline: algorithm
 ---
 
 #### Use Case:

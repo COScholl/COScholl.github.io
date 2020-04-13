@@ -2,7 +2,7 @@
 layout: grimoire
 title: Find Insert Index for Value JavaScript
 technologies: JavaScript
-subject: array manipulation
+subject: Algorithms
 tagline: algorithm
 ---
 

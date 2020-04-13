@@ -2,8 +2,8 @@
 layout: grimoire
 title: Return Title Cased String JavaScript
 technologies: JavaScript
-subject: string manipulation
-tagline: Flags
+subject: Algorithms
+tagline: algorithm
 ---
 
 #### Use Case:

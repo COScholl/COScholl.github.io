@@ -2,8 +2,8 @@
 layout: grimoire
 title: Slice Words by Number with Ellipsis JavaScript
 technologies: JavaScript
-subject: String manipulation
-tagline: Flags
+subject: Algorithms
+tagline: algorithm
 ---
 
 #### Use Case:
