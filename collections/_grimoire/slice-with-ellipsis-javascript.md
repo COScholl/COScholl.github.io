@@ -1,0 +1,31 @@
+---
+layout: grimoire
+title: Slice Words by Number with Ellipsis JavaScript
+technologies: JavaScript
+subject: String manipulation
+tagline: Flags
+---
+
+#### Use Case:
+manipulating strings
+#### First Principles:
+
+#### Using for loop
+```
+const truncateString = (str, num) => {
+  const cloneStr = str;
+  let retStr = '';
+  if (num < str.length) {
+    const ellipsis = '...';
+    retStr = cloneStr.slice(0, num) + ellipsis;
+    console.log(retStr)
+  } else {
+    retStr = cloneStr;
+  }
+
+  return retStr;
+};
+```
+
+#### Why I had to learn this
+I am currently working through the Learn Regular Expressions section of the JavaScript Data Structures and Algorithms certification
