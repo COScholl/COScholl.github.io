@@ -35,7 +35,7 @@ let match = string.match(regEx);
 "Some people, when confronted with a problem, think ‘I know, I’ll use regular expressions.’ Now they have two problems." -Jamie Zawinski
 ```
 
-This quote appropriately found at the start of chapter 9 of \<u>Eloquent JavaScript\</u> by Marijn Haverbeke.
+This quote appropriately found at the start of chapter 9 of <u>Eloquent JavaScript</u> by Marijn Haverbeke.
 ##### Lazy matching
 Regex is _greedy_ by default. It finds the longest possible part of a string that fits the regex pattern and returns that.
 Finds the smallest possible part of the string that satisfies the regex pattern. Uses the `*?` character.
