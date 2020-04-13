@@ -14,7 +14,7 @@ search patterns for strings
 * regular expressions can be formally defined using set theory
 	* see https://en.wikipedia.org/wiki/Regular_expression, _Formal language theory_
 * the syntax for regular expressions is `/<pattern>/<modifiers>`
-* regular expressions in JavaScript are objects, and can be also created with a class constructor using the `new RegExp('<pattern>', '<modifier>')` expression, or 'new RegExp('/<pattern>/', '<modifier>')', as well as assigning `/<pattern>/<modifiers>` to a variable
+* regular expressions in JavaScript are objects, and can be also created with a class constructor using the `new RegExp('<pattern>', '<modifier>')` expression, or `new RegExp('/<pattern>/', '<modifier>')`, as well as assigning `/<pattern>/<modifiers>` to a variable
 * the resulting RegExp object has methods that we can use to test our strings with
 * strings that we want to test against regular expressions using JavaScript are piped into the test via these methods
 ```
@@ -32,11 +32,10 @@ let match = string.match(regEx);
 ```
 #### Intro to Regular Expressions
 ```
-"Some people, when confronted with a problem, think ‘I know, I’ll use regular expressions.’ Now they have two problems.""
-
-- Jamie Zawinski
+"Some people, when confronted with a problem, think ‘I know, I’ll use regular expressions.’ Now they have two problems." -Jamie Zawinski
 ```
-This quote appropriately found at the start of chapter 9 of <ul>Eloquent JavaScript</ul> by Marijn Haverbeke.
+
+This quote appropriately found at the start of chapter 9 of <u>Eloquent JavaScript</u> by Marijn Haverbeke.
 ##### Lazy matching
 Regex is _greedy_ by default. It finds the longest possible part of a string that fits the regex pattern and returns that.
 Finds the smallest possible part of the string that satisfies the regex pattern. Uses the `*?` character.
@@ -77,11 +76,11 @@ Finds the smallest possible part of the string that satisfies the regex pattern.
 		input: <complete input string>
 	]
 	```
-		* <output>[0] returns <first complete match>
-		* <output>.index returns <index of input string where first complete match starts>
-		* <output>.input returns <complete input string>
+		* \<output>[0] returns <first complete match>
+		* \<output>.index returns <index of input string where first complete match starts>
+		* \<output>.input returns <complete input string>
 
-* <string>.replace(<regex>, <replacement string>)
+* `<string>.replace(<regex>, <replacement string>)`
 ##### Flags
 * `i` - "ignore case" (RegExp.prototype.ignoreCase)
 * `g` - "global search (find more than one instance)" (RegExp.prototype.global)
