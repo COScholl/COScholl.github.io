@@ -38,4 +38,4 @@ const findElement = (arr, func) => {
 ```
 
 #### Why I had to learn this
-I am currently working through the Learn Regular Expressions section of the JavaScript Data Structures and Algorithms certification
+I am currently working through JavaScript Data Structures and Algorithms certification

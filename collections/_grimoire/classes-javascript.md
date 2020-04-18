@@ -1,6 +1,6 @@
 ---
 layout: grimoire
-title: String Has All Letters in Another With JavaScript
+title: Wokring with JavaScript Classes
 technologies: JavaScript
 subject: Object Oriented Programming
 tagline: classes

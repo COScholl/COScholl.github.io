@@ -9,7 +9,9 @@ tagline: algorithm
 #### Use Case:
 working with arrays
 #### First Principles:
-
+- splice() returns a new array with spliced values, and modifies the original array
+- splice() can be used to start at an index and remove _n_ number of elements
+- splice() can be used to add elements to replace elements that were removed, or simply to add elements starting at an index
 #### using .splice() and .forEach() methods
 ```
 const frankenSplice = (arr1, arr2, n) => {
@@ -22,4 +24,4 @@ const frankenSplice = (arr1, arr2, n) => {
 ```
 
 #### Why I had to learn this
-I am currently working through the Learn Regular Expressions section of the JavaScript Data Structures and Algorithms certification
+I am currently working through JavaScript Data Structures and Algorithms certification

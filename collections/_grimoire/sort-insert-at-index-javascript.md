@@ -41,4 +41,4 @@ Initially, I did not consider adding _num_ to the array and then sorting to find
 I had initally thought about how to reduce the number of elements after sorting, and I could have approached the problem with less complexity, since I initially conceived of something fairly complicated.
 
 #### Why I had to learn this
-I am currently working through the Learn Regular Expressions section of the JavaScript Data Structures and Algorithms certification
+I am currently working through JavaScript Data Structures and Algorithms certification

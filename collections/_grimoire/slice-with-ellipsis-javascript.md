@@ -9,7 +9,7 @@ tagline: algorithm
 #### Use Case:
 manipulating strings
 #### First Principles:
-
+- slice() extracts a given number of starting at an index (inclusive) and ending at an index (exclusive) elements and returns a new array
 #### Using for loop
 ```
 const truncateString = (str, num) => {
@@ -28,4 +28,4 @@ const truncateString = (str, num) => {
 ```
 
 #### Why I had to learn this
-I am currently working through the Learn Regular Expressions section of the JavaScript Data Structures and Algorithms certification
+I am currently working through JavaScript Data Structures and Algorithms certification
