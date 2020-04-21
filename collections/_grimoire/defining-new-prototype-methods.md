@@ -57,3 +57,6 @@ Object.defineProperty(String.prototype, 'reverse', {
 
 #### Why I had to learn this
 This was something that I saw recently while studying for code challenges. It fits with study of classes from last week.
+
+#### Sources
+https://dmitripavlutin.com/when-not-to-use-arrow-functions-in-javascript/
