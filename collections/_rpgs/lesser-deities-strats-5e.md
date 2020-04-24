@@ -34,7 +34,7 @@ This is the lens through which first edition deities will be filtered. The data 
 #### 5e Lesser Deity Statistics Rough Draft Based on Ten 1e Lesser Deities
 
 |Category|Average|Standard Deviation|Maximum|Minimum |
-|--------|-------|------------------|-------|--------|
+|:--------|:-------|:------------------|:-------|:--------|
 |Armor Class|19.818181818181817|2.3284088136119445|25|17|
 |Hit Points|386.7|101.22850389094961|615|283|
 |Ability Scores|20.933333333333334|5.1732216482789735|30|10|
@@ -47,7 +47,7 @@ Number of Damage Resistances|1.7|1.1874342087037917|3|0|
 |Number of Condition Immunities|6.2|2.6|13|4|
 |Challenge Rating|22.6|3.7735924528226414|30|18|
 |Number of Special Traits|5.8|0.8717797887081347|7|5|
-|Number of Actions**|3.7|0.6403124237432849|5|3|
+|Number of Actions|3.7|0.6403124237432849|5|3|
 |Attack Bonus|15.2|2.5612496949731396|19|11|
 |Number of Attacks|2.3|0.45825756949558405|3|2|
 |Save DC|20.8|2.4819347291981715|26|17|
