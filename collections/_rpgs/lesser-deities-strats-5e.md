@@ -32,6 +32,7 @@ There will be some other ways that I can reinforce my process, and I have been p
 This is the lens through which first edition deities will be filtered. The data set is not large, but it is concrete. Based on CR alone, the _Monster Statistics by Challenge Rating_ table from the DMG, p. 274 can be used to generate another collection of statistics.
 
 #### 5e Lesser Deity Statistics Rough Draft Based on Ten 1e Lesser Deities
+
 |Category|Average|Standard Deviation|Maximum|Minimum |
 |--------|-------|------------------|-------|--------|
 |Armor Class|19.818181818181817|2.3284088136119445|25|17|
