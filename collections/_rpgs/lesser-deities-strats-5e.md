@@ -37,6 +37,7 @@ This is the lens through which first edition deities will be filtered. The data 
 |:--------|:-------|:------------------|:-------|:--------|
 |Armor Class|19.818181818181817|2.3284088136119445|25|17|
 |Hit Points|386.7|101.22850389094961|615|283|
+|Effective Hit Points|483.375|126.535629863687|768.75|353.75|
 |Ability Scores|20.933333333333334|5.1732216482789735|30|10|
 |Proficiency Bonus|7.1|0.9433981132056604|9|6|
 |Number of Skills|1.3|1.1874342087037917|3|0|
