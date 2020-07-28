@@ -71,7 +71,7 @@ title: Home
         <hr/>
         <p><strong><em>I'll learn what you know.</em></strong> "Chris Scholl is eager to learn and share knowledge with fellow creatures, whether through declaration, demonstration, or documentation."</p>
         <p><strong><em>Says it well.</em></strong> "Chris Scholl has advantage when communicating with teammates"</p>
-        <p><strong><em>Way Too Intense.</em></strong> "No, I'm not upset. I'm just thinking about something. Seriously."</p>
+        <p><strong><em>Focused.</em></strong> "Man, I lost track of time. But this widget I made is pretty cool!"</p>
         <h3 id="actions">Actions</h3>
         <p><strong><em>Accidentally step on toes.</em></strong> <em>Melee Weapon Attack:</em> +0 to hit, reach 5ft., one target. <em>Hit</em> 5 (1d10 + 0) </p>
     </blockquote>
